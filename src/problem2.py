@@ -67,7 +67,7 @@ def problem2a_testing():
     print('Actual:  ', actual)
 
     print('Test 4')
-    expected = 24
+    expected = 6
     actual = sum_of_digits_of_sum_of_factors(15)
     print()
     print('Expected:', expected)
@@ -475,7 +475,7 @@ def problem1c(m):
     # TODO (continued)    You get   NO credit   if your solution is more
     # TODO (continued)    than 3 lines of code (and it can be done in 1 line).
     ############################################################################
-    return sum_of_digits_of_sum_of_factors()
+
 
 ################################################################################
 # Our tests use the following to print error messages in red.
